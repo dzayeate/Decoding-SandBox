@@ -29,6 +29,10 @@ Route::get('/contactus', function () {
     return view('landingpage.pages.contact');
 });
 
+Route::get('/aboutus', function () {
+    return view('landingpage.pages.aboutus');
+});
+
 Route::get('/dashboard', function () {
     return view('dashboard.index');
 });
