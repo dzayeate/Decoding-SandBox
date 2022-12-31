@@ -82,7 +82,7 @@
         <div class="menu-container flex-grow-1">
             <ul id="menu" class="menu">
                 <li>
-                    <a href="" >
+                    <a href="/learningpaths" >
                         <i data-acorn-icon="screen" class="icon" data-acorn-size="18"></i>
                         <span class="label">Lerning Path</span>
                     </a>
@@ -106,18 +106,29 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="" data-href="Blocks.html">
-                        <i data-acorn-icon="grid-5" class="icon" data-acorn-size="18"></i>
-                        <span class="label">Lainya</span>
+                    <a href="" data-href="Pages.html">
+                        <i data-acorn-icon="notebook-1" class="icon" data-acorn-size="18"></i>
+                        <span class="label">Lainnya</span>
                     </a>
-                    <ul id="">
+                    <ul id="pages">
                         <li>
-                            <a href="">
+                            <a href="" data-href="Pages.Authentication.html">
+                                <span class="label">About Us</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" data-href="Pages.Authentication.html">
                                 <span class="label">Contact Us</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" data-href="Pages.Authentication.html">
+                                <span class="label">Testimonial</span>
                             </a>
                         </li>
                     </ul>
                 </li>
+
             </ul>
         </div>
         <!-- Menu End -->
